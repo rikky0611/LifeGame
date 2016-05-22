@@ -14,6 +14,8 @@
 		9A7CE4101CF1388100191189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7CE40E1CF1388100191189 /* LaunchScreen.storyboard */; };
 		9A7CE41B1CF1388100191189 /* LifeGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE41A1CF1388100191189 /* LifeGameTests.swift */; };
 		9A7CE4261CF1388100191189 /* LifeGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE4251CF1388100191189 /* LifeGameUITests.swift */; };
+		9A7CE4341CF1389500191189 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE4331CF1389500191189 /* Field.swift */; };
+		9A7CE4361CF1389F00191189 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE4351CF1389F00191189 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9A7CE4211CF1388100191189 /* LifeGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7CE4251CF1388100191189 /* LifeGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeGameUITests.swift; sourceTree = "<group>"; };
 		9A7CE4271CF1388100191189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7CE4331CF1389500191189 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		9A7CE4351CF1389F00191189 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				9A7CE40C1CF1388100191189 /* Assets.xcassets */,
 				9A7CE40E1CF1388100191189 /* LaunchScreen.storyboard */,
 				9A7CE4111CF1388100191189 /* Info.plist */,
+				9A7CE4331CF1389500191189 /* Field.swift */,
+				9A7CE4351CF1389F00191189 /* Cell.swift */,
 			);
 			path = LifeGame;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A7CE4081CF1388100191189 /* ViewController.swift in Sources */,
+				9A7CE4361CF1389F00191189 /* Cell.swift in Sources */,
 				9A7CE4061CF1388100191189 /* AppDelegate.swift in Sources */,
+				9A7CE4341CF1389500191189 /* Field.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
