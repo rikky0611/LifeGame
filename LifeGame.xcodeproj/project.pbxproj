@@ -16,6 +16,7 @@
 		9A7CE4261CF1388100191189 /* LifeGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE4251CF1388100191189 /* LifeGameUITests.swift */; };
 		9A7CE4341CF1389500191189 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE4331CF1389500191189 /* Field.swift */; };
 		9A7CE4361CF1389F00191189 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE4351CF1389F00191189 /* Cell.swift */; };
+		9A7CE4381CF14DBE00191189 /* gameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CE4371CF14DBE00191189 /* gameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9A7CE4271CF1388100191189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A7CE4331CF1389500191189 /* Field.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
 		9A7CE4351CF1389F00191189 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		9A7CE4371CF14DBE00191189 /* gameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				9A7CE4111CF1388100191189 /* Info.plist */,
 				9A7CE4331CF1389500191189 /* Field.swift */,
 				9A7CE4351CF1389F00191189 /* Cell.swift */,
+				9A7CE4371CF14DBE00191189 /* gameView.swift */,
 			);
 			path = LifeGame;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				9A7CE4081CF1388100191189 /* ViewController.swift in Sources */,
 				9A7CE4361CF1389F00191189 /* Cell.swift in Sources */,
+				9A7CE4381CF14DBE00191189 /* gameView.swift in Sources */,
 				9A7CE4061CF1388100191189 /* AppDelegate.swift in Sources */,
 				9A7CE4341CF1389500191189 /* Field.swift in Sources */,
 			);
@@ -408,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LifeGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rikky0611.LifeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LifeGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = rikky0611.LifeGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
